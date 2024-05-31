@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact FiFi's Instruments Shop</title>
+    <link rel="stylesheet" href="contact-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact FiFi's Instruments Shop</h1>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+                
+                <label for="instrument">Instrument:</label>
+                <input type="text" id="instrument" name="instrument" required>
+                
+                <label for="purchase">Looking to Purchase:</label>
+                <input type="text" id="purchase" name="purchase">
+                
+                <label for="complaint">Complaint/Quotation:</label>
+                <textarea id="complaint" name="complaint"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p class="contact-detail">Telephone: +48724774078</p>
+            <p class="contact-detail">Home Phone: +27631329584</p>
+            <p class="contact-detail">Email: sivetokwe60@gmail.com</p>
+            <p class="contact-detail">Address: Street: Zolny 33, City: Ursynow, Country: Warszawa</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FiFi's Instruments Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<style>
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlX74RT2TPmc7U3MX-psJJclknCVpslWQfQ&s') no-repeat center center fixed;
+    background-size: cover;
+    color: #333; /* Dark grey */
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(128, 0, 128, 0.8); /* Semi-transparent purple */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 50% 50%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center; /* Center align content */
+    background-color: rgba(255, 255, 0, 0.8); /* Semi-transparent yellow */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact-form, .contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-form h2, .contact-info h2 {
+    color: #800080; /* Purple */
+    border-bottom: 2px solid #800080; /* Purple */
+    padding-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark grey */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555; /* Lighter grey */
+}
+
+.contact-info h2 {
+    font-size: 24px;
+}
+
+.contact-detail {
+    color: #333; /* Dark grey */
+    cursor: pointer;
+}
+
+.contact-detail:hover {
+    text-decoration: underline;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+</style>
